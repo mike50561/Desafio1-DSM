@@ -1,0 +1,93 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Título  -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desafio 1 DSM\nMiguel Herrera\nHA160257"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="30dp"/>
+
+        <!-- Ejercicio 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="30dp">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:src="@drawable/nota"
+                android:scaleType="fitCenter"
+                android:paddingBottom="8dp"/>
+
+            <Button
+                android:id="@+id/button_calcular_promedio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calcular Promedio Nota del Estudiante UDB"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <!-- Ejercicio 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="30dp">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:src="@drawable/salario"
+                android:scaleType="fitCenter"
+                android:paddingBottom="8dp"/>
+
+            <Button
+                android:id="@+id/button_calcular_salario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calcular Descuentos de Salario Empleado"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <!-- Ejercicio 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:src="@drawable/calculadorabasica"
+                android:scaleType="fitCenter"
+                android:paddingBottom="8dp"/>
+
+            <Button
+                android:id="@+id/button_calculadora_basica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calculadora Básica"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
