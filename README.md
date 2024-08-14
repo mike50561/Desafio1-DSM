@@ -27,7 +27,8 @@ Kotlin: Lenguaje de programación para el desarrollo de las aplicaciones.
 Android Studio: IDE utilizado para el desarrollo y pruebas.
 
 ## 📝Documentación
--  Documento PDF: 
+-  Documento PDF: https://drive.google.com/file/d/1Tkc-5EWZoLYwJ0dskqXawd7gQlkrSDCJ/view?usp=sharing
+  
 -  Video Demostrativo funcionalidad APP: https://drive.google.com/file/d/1KmIISIQjgK9RrccGV6rhTkTSz0LNEmR_/view?usp=sharing
 
 ## 🤝 Contribuciones
